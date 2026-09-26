@@ -6,8 +6,8 @@ const TALENTS = [
     nameAr: "حنان مطاوع",
     role: "Artist – Egyptian Actress",
     roleAr: "فنانة وممثلة مصرية",
-    photo: "assets/hanan-motawie-thumb.jpg",
-    cover: "assets/hanan-motawie-full.jpg",
+    photo: "hanan-motawie-thumb.jpg",
+    cover: "hanan-motawie-full.jpg",
     featured: true,
     stats: [
       { label: "Views on all platforms", value: "61M+" },
@@ -22,7 +22,7 @@ const TALENTS = [
     nameAr: "صابرين",
     role: "Super Star",
     roleAr: "سوبر ستار",
-    photo: "assets/sabrien-thumb.jpg",
+    photo: "sabrien-thumb.jpg",
     featured: true,
     bio: "الفنانة صابرين من أهم النجوم اللي انضمت لعائلة ماكولا إيجيبت، بنعمل معاها استراتيجية محتوى متكاملة على كل منصات السوشيال ميديا عشان توصل لأكبر عدد من الجمهور."
   },
@@ -32,7 +32,7 @@ const TALENTS = [
     nameAr: "مريم أمين",
     role: "TV & Radio Presenter",
     roleAr: "مذيعة تليفزيون وراديو",
-    photo: "assets/mariam-amin-thumb.jpg",
+    photo: "mariam-amin-thumb.jpg",
     featured: true,
     bio: "الإعلامية مريم أمين، مقدمة برامج تليفزيون وراديو، بنتولى معاها إدارة الحضور الرقمي وصناعة محتوى احترافي يعكس شخصيتها الإعلامية المميزة."
   },
@@ -42,7 +42,7 @@ const TALENTS = [
     nameAr: "فيفيان فريد",
     role: "Chef & Content Creator",
     roleAr: "شيف وصانعة محتوى",
-    photo: "assets/vivian-farid-thumb.jpg",
+    photo: "vivian-farid-thumb.jpg",
     featured: true,
     bio: "الشيف فيفيان فريد، صانعة محتوى الطبخ الأشهر، بنتعاون معاها في إنتاج وتسويق محتواها الرقمي وبناء جمهورها على مختلف المنصات."
   },
@@ -52,7 +52,7 @@ const TALENTS = [
     nameAr: "هبة الجارحي",
     role: "Content Creator",
     roleAr: "صانعة محتوى",
-    photo: "assets/heba-elgarhi-thumb.jpg",
+    photo: "heba-elgarhi-thumb.jpg",
     featured: true,
     stats: [
       { label: "Views on all platforms", value: "100M+" }
@@ -65,7 +65,7 @@ const TALENTS = [
     nameAr: "أسماء قنديل",
     role: "Super Star",
     roleAr: "سوبر ستار",
-    photo: "assets/asma-kandeel-thumb.jpg",
+    photo: "asma-kandeel-thumb.jpg",
     featured: true,
     bio: "الإعلامية أسماء قنديل من نجوم ماكولا إيجيبت، بنشتغل سوا على إدارة المحتوى والحضور الإعلامي والرقمي بشكل احترافي ومتكامل."
   },
@@ -75,7 +75,7 @@ const TALENTS = [
     nameAr: "باسنت شوقي",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/passant-shawky-thumb.jpg",
+    photo: "passant-shawky-thumb.jpg",
     bio: "باسنت شوقي من الوجوه المتعاونة مع ماكولا إيجيبت ضمن باقة النجوم اللي بنقدملهم خدمات الترند وإدارة السوشيال ميديا وخطة المحتوى الاستراتيجية."
   },
   {
@@ -84,7 +84,7 @@ const TALENTS = [
     nameAr: "رشا مهدي",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/rasha-mahdi-thumb.jpg",
+    photo: "rasha-mahdi-thumb.jpg",
     bio: "رشا مهدي من النجوم اللي بتتعاون مع ماكولا إيجيبت في الترند والإنتاج الإعلامي وإدارة المحتوى الرقمي."
   },
   {
@@ -93,7 +93,7 @@ const TALENTS = [
     nameAr: "ملك كورة",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/malak-koura-thumb.jpg",
+    photo: "malak-koura-thumb.jpg",
     bio: "ملك كورة ضمن نجوم ماكولا إيجيبت اللي بنقدملهم خدمات الإنتاج الإعلامي وإدارة وخطط استراتيجية السوشيال ميديا."
   },
   {
@@ -102,7 +102,7 @@ const TALENTS = [
     nameAr: "شيماء السبعاوي",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/shimaa-elsebaey-thumb.jpg",
+    photo: "shimaa-elsebaey-thumb.jpg",
     bio: "شيماء السبعاوي من الوجوه المتعاونة مع ماكولا إيجيبت ضمن باقة خدمات الترند وإدارة المحتوى."
   },
   {
@@ -111,7 +111,7 @@ const TALENTS = [
     nameAr: "سهير جودة",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/sohair-goda-thumb.jpg",
+    photo: "sohair-goda-thumb.jpg",
     bio: "سهير جودة من نجوم ماكولا إيجيبت اللي بنشتغل معاهم على الإنتاج الإعلامي وإدارة السوشيال ميديا."
   },
   {
@@ -120,7 +120,7 @@ const TALENTS = [
     nameAr: "بوسي شلبي",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/bosy-shalaby-thumb.jpg",
+    photo: "bosy-shalaby-thumb.jpg",
     bio: "بوسي شلبي من الوجوه المتعاونة مع ماكولا إيجيبت في خطط الترند والمحتوى الاستراتيجي."
   },
   {
@@ -129,7 +129,7 @@ const TALENTS = [
     nameAr: "لمياء فهمي",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/lamiaa-fahmy-thumb.jpg",
+    photo: "lamiaa-fahmy-thumb.jpg",
     bio: "لمياء فهمي من نجوم ماكولا إيجيبت اللي بنتولى معاهم إدارة الحضور الرقمي والمحتوى."
   },
   {
@@ -138,7 +138,7 @@ const TALENTS = [
     nameAr: "إلهام وجدي",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/elham-wagdi-thumb.jpg",
+    photo: "elham-wagdi-thumb.jpg",
     bio: "إلهام وجدي من الوجوه المتعاونة مع ماكولا إيجيبت ضمن خدمات الترند وإدارة السوشيال ميديا."
   },
   {
@@ -147,7 +147,7 @@ const TALENTS = [
     nameAr: "ماجد الكدواني",
     role: "Actor",
     roleAr: "ممثل",
-    photo: "assets/maged-elkedwany-thumb.jpg",
+    photo: "maged-elkedwany-thumb.jpg",
     bio: "الفنان ماجد الكدواني من نجوم ماكولا إيجيبت، بنتولى جوانب من الإنتاج الإعلامي والحضور الرقمي الخاص بيه."
   },
   {
@@ -156,7 +156,7 @@ const TALENTS = [
     nameAr: "مي فاروق",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/mai-farouk-thumb.jpg",
+    photo: "mai-farouk-thumb.jpg",
     bio: "مي فاروق من نجوم ماكولا إيجيبت اللي بنشتغل معاهم على استراتيجية المحتوى وإدارة السوشيال ميديا."
   },
   {
@@ -165,7 +165,7 @@ const TALENTS = [
     nameAr: "خالد سليم",
     role: "Public Figure",
     roleAr: "شخصية عامة",
-    photo: "assets/khaled-selim-thumb.jpg",
+    photo: "khaled-selim-thumb.jpg",
     bio: "خالد سليم من الوجوه المتعاونة مع ماكولا إيجيبت ضمن خدمات الإنتاج الإعلامي والترند."
   }
 ];
@@ -370,7 +370,7 @@ const PROJECTS = [
     titleAr: "حملة سوشيال ميديا متكاملة",
     meta: "Social Media · 2025",
     metaAr: "السوشيال ميديا · 2025",
-    thumb: "assets/hero.jpg",
+    thumb: "hero.jpg",
     summary: "A full social media campaign covering strategy, content creation, and platform management — from the first idea to measurable results on every channel.",
     summaryAr: "حملة سوشيال ميديا متكاملة بتغطي الاستراتيجية وصناعة المحتوى وإدارة المنصات، من أول فكرة لحد نتائج حقيقية بنشوفها بالأرقام على كل منصة.",
     media: []
@@ -383,7 +383,7 @@ const PROJECTS = [
     titleAr: "إنتاج محتوى لأحد نجومنا",
     meta: "Video Production · 2025",
     metaAr: "إنتاج فيديو · 2025",
-    thumb: "assets/hanan-motawie-full.jpg",
+    thumb: "hanan-motawie-full.jpg",
     summary: "End-to-end video production for one of our talents — scripting, filming, lighting, and post-production, all handled in-house by our own studios.",
     summaryAr: "إنتاج فيديو متكامل لأحد نجومنا — من كتابة السيناريو للتصوير والإضاءة والمونتاج، وكله بيتنفذ بأنفسنا في استوديوهاتنا.",
     media: []
@@ -396,7 +396,7 @@ const PROJECTS = [
     titleAr: "هوية بصرية لعلامة تجارية نامية",
     meta: "Branding · 2024",
     metaAr: "براندينج · 2024",
-    thumb: "assets/logo.png",
+    thumb: "logo.png",
     summary: "A complete brand identity project — logo, visual language, and brand guidelines — built to give a growing brand a clear, consistent presence everywhere it shows up.",
     summaryAr: "مشروع هوية بصرية متكامل — لوجو، لغة بصرية، ودليل هوية — عشان نديله حضور واضح وثابت في كل مكان يظهر فيه.",
     media: []
